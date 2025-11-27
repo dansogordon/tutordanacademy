@@ -99,6 +99,21 @@ h6 {
   font-weight: 600;
 }
 
+#header {
+  height: 110px !important; /* increase as needed */
+}
+
+#header .logo img {
+  max-height: 90px !important;
+}
+
+
+#header {
+  height: auto !important;
+  padding: 15px 0 !important; /* add breathing room */
+}
+
+
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
