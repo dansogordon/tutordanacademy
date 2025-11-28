@@ -853,39 +853,39 @@ text-decoration:none; border-radius:6px; font-size:16px; font-weight:600;">
       <!-- End Email Info -->
  
 
-
-      <!-- Contact Form -->
+<!-- Contact Form -->
 <div class="col-lg-6">
   <form action="https://formsubmit.co/dan@tutordanacademy.com" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-    
-    <!-- Hidden Fields for FormSubmit -->
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="https://www.tutordanacademy.com/thank-you.html">
-
     <div class="row gy-4">
 
+      <!-- Name -->
       <div class="col-md-6">
         <input type="text" name="name" class="form-control" placeholder="Your Name" required>
       </div>
 
+      <!-- Email -->
       <div class="col-md-6">
         <input type="email" name="email" class="form-control" placeholder="Your Email" required>
       </div>
 
+      <!-- Subject -->
       <div class="col-md-12">
         <input type="text" name="subject" class="form-control" placeholder="Subject" required>
       </div>
 
+      <!-- Message -->
       <div class="col-md-12">
         <textarea name="message" class="form-control" rows="4" placeholder="Message" required></textarea>
       </div>
 
-      <div class="col-md-12 text-center">
-        <div class="loading">Loading</div>
-        <div class="error-message"></div>
-        <div class="sent-message">Your message has been sent. Thank you!</div>
+      <!-- Hidden fields for FormSubmit -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://www.tutordanacademy.com/thank-you.html">
 
-        <button type="submit" style="padding:12px 28px; font-size:16px; background-color:#007bff; color:white; border:none; border-radius:6px; cursor:pointer;">
+      <!-- Submit Button -->
+      <div class="col-md-12 text-center">
+        <button type="submit" 
+          style="padding:12px 28px; font-size:16px; background-color:#007bff; color:white; border:none; border-radius:6px; cursor:pointer;">
           Send Message
         </button>
       </div>
@@ -894,6 +894,7 @@ text-decoration:none; border-radius:6px; font-size:16px; font-weight:600;">
   </form>
 </div>
 <!-- End Contact Form -->
+
 
 
   
