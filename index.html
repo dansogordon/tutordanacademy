@@ -852,7 +852,6 @@ text-decoration:none; border-radius:6px; font-size:16px; font-weight:600;">
       </div>
       <!-- End Email Info -->
  
-
 <!-- Contact Form -->
 <div class="col-lg-6">
   <form action="https://formsubmit.co/dan@tutordanacademy.com" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
@@ -881,9 +880,15 @@ text-decoration:none; border-radius:6px; font-size:16px; font-weight:600;">
       <!-- Hidden fields for FormSubmit -->
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_next" value="https://www.tutordanacademy.com/thank-you.html">
+      <input type="hidden" name="_template" value="table">
 
-      <!-- Submit Button -->
+      <!-- Status Messages -->
       <div class="col-md-12 text-center">
+        <div class="loading">Loading</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Your message has been sent. Thank you!</div>
+
+        <!-- Submit Button -->
         <button type="submit" 
           style="padding:12px 28px; font-size:16px; background-color:#007bff; color:white; border:none; border-radius:6px; cursor:pointer;">
           Send Message
