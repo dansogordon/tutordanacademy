@@ -964,17 +964,38 @@ section,
   }
 }
 
-<style>
-  /* Only affects the pricing section on this page */
-  #pricing {
-    /* Remove bottom curve if it's made with border-radius */
-    border-bottom-left-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    
-    /* OR if it's made with clip-path */
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
-  }
-</style>
+/* Peak & regular Buy buttons */
+.buy-btn, .peak-btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 16px;
+  background-color: #e0423c; /* red for regular, gold for peak */
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+/* Hover effect */
+.buy-btn:hover, .peak-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+  filter: brightness(1.1);
+}
+
+/* Optional: small glowing effect for Peak Plan button */
+.peak-btn {
+  background-color: #f1c40f;
+  color: #1e1e1e;
+}
+
+.peak-btn:hover {
+  box-shadow: 0 0 15px rgba(241,196,15,0.7);
+  transform: translateY(-3px) scale(1.05);
+  filter: brightness(1.15);
+}
 
 /* VIP CARD */
 .peak-vip-card {
