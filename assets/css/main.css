@@ -964,6 +964,109 @@ section,
   }
 }
 
+<style>
+  /* Only affects the pricing section on this page */
+  #pricing {
+    /* Remove bottom curve if it's made with border-radius */
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    
+    /* OR if it's made with clip-path */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+  }
+</style>
+
+/* VIP CARD */
+.peak-vip-card {
+  background: #121212;
+  border-radius: 14px;
+  padding: 28px;
+  border: 1px solid rgba(241, 196, 15, 0.7);
+  box-shadow: 0 0 25px rgba(241, 196, 15, 0.12);
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* TITLE */
+.peak-title {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #f7d774, #f1c40f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 6px;
+}
+
+/* SUBTITLE */
+.peak-subtitle {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 18px;
+}
+
+/* PRICE */
+.peak-price-box {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.price-main {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f1c40f;
+}
+
+.price-term {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-left: 6px;
+}
+
+.price-note {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: -4px;
+}
+
+/* DIVIDER */
+.peak-divider {
+  border: none;
+  border-top: 1px solid rgba(241, 196, 15, 0.3);
+  margin: 18px 0;
+}
+
+/* LIST */
+.peak-benefits {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.peak-benefits li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.4em;
+  opacity: 0.9;
+}
+
+/* BUTTON */
+.peak-btn {
+  background: linear-gradient(90deg, #e3503d, #c62828);
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+.peak-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
