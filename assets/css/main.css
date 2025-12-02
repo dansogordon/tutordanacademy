@@ -233,6 +233,17 @@ h6 {
   }
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Desktop max width */
+  margin: 0 auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
