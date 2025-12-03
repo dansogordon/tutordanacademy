@@ -234,15 +234,22 @@ h6 {
 }
 
 .video-container {
-  position: relative;
   width: 100%;
-  max-width: 800px; /* Desktop max width */
+  max-width: 600px; /* keeps desktop looking nice too */
   margin: 0 auto;
 }
 
 .video-container video {
   width: 100%;
   height: auto;
+  display: block;
+}
+
+/* Extra tightening for small screens */
+@media (max-width: 480px) {
+  .video-container {
+    max-width: 90vw;
+  }
 }
 /*--------------------------------------------------------------
 # Global Header
