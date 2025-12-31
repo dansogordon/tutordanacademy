@@ -153,6 +153,12 @@ h6 {
     transform: rotate(360deg);
   }
 }
+p.placeholder {
+  background-color: transparent;
+  margin: 0 0 10px 0;
+  overflow: visible;
+}
+
 
 /* Pulsating Play Button
 ------------------------------*/

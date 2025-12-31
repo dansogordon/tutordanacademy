@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>John Doe – Personal English Hub</title>
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
+  <style>
+    /* Custom styles for personal page */
+    .student-header {
+      background-color: #1e3d59;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    .student-header h1 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+    .section-title {
+      margin-bottom: 20px;
+      color: #1e3d59;
+      border-bottom: 2px solid #1e3d59;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 10px;
+    }
+
+  
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      background-color: #1e3d59;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  
+    /* Only student content lists get checkmarks */
+ul.student-list {
+  list-style: none;
+  padding-left: 25px;
+}
+
+ul.student-list li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+ul.student-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #2ca02c;
+}
+  </style>
+</head>
+
+<body class="index-page">
+
+  <!-- Header -->
+<header id="header" class="header d-flex align-items-center sticky-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+    <a href="https://www.tutordanacademy.com/" class="logo d-flex align-items-center me-auto">
+      <img src="../assets/img/portfolio/LogoBlack.png" alt="logo" data-aos="fade-in" style="width:200px; height:auto;">
+    </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="https://www.tutordanacademy.com/" class="active">Home</a></li>
+        <li><a href="/#team">About</a></li>
+        <li><a href="/#services">Services</a></li>
+        <li><a href="/#testimonials">Testimonials</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+    <a class="btn-getstarted" href="/freeclass">Schedule Your FREE Class</a>
+
+  </div>
+</header>
+
+  <!-- Personal Student Page Content -->
+  <section class="container my-5">
+
+    <div class="student-header">
+      <h1>John Doe’s Personal English Hub</h1>
+      <p>Welcome! Everything you need for your sessions is here.</p>
+    </div>
+
+    <!-- Student Info -->
+    <div class="mb-4">
+      <h2 class="section-list">Personal Info</h2>
+      <ul class="student-list">
+        <li>Name: John Doe</li>
+        <li>Email: john@example.com</li>
+        <li>Phone: +1 555 123 4567</li>
+        <li>Preferred Days: Monday / Wednesday / Friday</li>
+        <li>Class Type: Video</li>
+        <li>Reason for Learning English: Improve professional communication</li>
+      </ul>
+    </div>
+
+    <!-- Pre-Session Materials -->
+    <div class="mb-4">
+      <h2 class="section-title">Pre-Session Materials</h2>
+      <p>Here are a few key words you can start practicing before your first session:</p>
+      <ul class="student-list">
+        <li>Challenge</li>
+        <li>Opportunity</li>
+        <li>Improve</li>
+      </ul>
+      <p class="placeholder">Your personalized feedback PDF will appear here after your 20-minute session.</p>
+    </div>
+
+    <!-- Homework -->
+    <div class="mb-4">
+      <h2 class="section-title">Homework / Practice</h2>
+     <ul class="student-list">
+        <li>Make 2–3 sentences with each key word above.</li>
+        <li>Practice speaking aloud for 5–10 minutes daily.</li>
+        <li>Record yourself reading a short paragraph and compare with a native speaker.</li>
+      </ul>
+    </div>
+
+    <!-- Next Session -->
+    <div class="mb-4">
+      <h2 class="section-title">Next Session</h2>
+      <p class="placeholder">Details and goals for your next session will appear here.</p>
+    </div>
+
+    <!-- Download PDF -->
+    <div class="mb-4 text-center">
+      <a href="STUDENT SESSION SUMMARY.pdf" class="button">Download PDF Feedback</a>
+    </div>
+
+  </section>
+
+  <!-- Footer (unchanged) -->
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top">
+      <img src="../assets/img/portfolio/LogoWhite.png" alt="logo" style="width:300px; height:auto;">
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p><a> Tutor Dan Academy | 2026 </a></p>
+      <p><em>Keep practicing—your English is improving every day!</em></p>
+    </div>
+  </footer>
+
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
